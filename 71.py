@@ -32,3 +32,4 @@ Total de {c10} cédulas de R$10
 Total de {c1} cédulas de R$1''')
 print('='*30)
 print('Volte sempre ao BANCO CEV! Tenha um bom dia!')
+print('IUEHASUIEHAS')
