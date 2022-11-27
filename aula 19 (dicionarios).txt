@@ -1,0 +1,24 @@
+dicionários
+dicionario = dict() = {}
+dicionario={'indice0': 'elemento0', 'indice1': 'elemento1'}
+print(dicionario[indice0]) = elemento0
+---
+não funciona append() pra dicionario
+para adicionar, basta:
+dicionario['novoindice'] = 'novoelemento'
+
+para remover:
+del dicionario['indice' ou 'elemento']
+
+values = elementos
+keys = índices
+items = elementos e índices
+
+exemplo de uso:
+for k in dicionario.keys()
+for v in dicionario.values()
+for k, v in dicionario.items():
+
+
+é possível adicionar dicionarios via append em listas:
+lista.append(dicionario)

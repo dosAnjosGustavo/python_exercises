@@ -1,0 +1,7 @@
+'''Interacrive Help(documentação do python)
+docstrings
+argumentos(Parâmetros) opcionais
+Escopo de variáveis
+Retorno de resultados'''
+
+"global 'var'" dentro da função def faz com que trate o item como se estivesse fora da def

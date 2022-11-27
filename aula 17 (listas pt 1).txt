@@ -1,0 +1,37 @@
+Listas (parte 1)
+diferente de tuplas, as listas são mutáveis.
+diff: listas [], tuplas ()
+
+substituir elemento na lista:
+ lista[índice]: 'elementonovo'
+
+adicionar elementos no final da lista:
+ lista.append('elemento')
+
+adicionar elementos no meio da lista:
+ lista.insert(posição, elemento) #cria um novo índice ao final e joga todos os índices da posição + posteriores pra frente
+
+apagar elemento (reposiciona índices e exclui excedentes):
+del lista[índice]
+lista.remove(elemento) #elimina primeira ocorrência do elemento indicado
+lista.pop(índice)
+lista.pop() #eliminar último elemento
+
+criar lista através de range:
+lista=list(range(início, fim+1, pulo))
+
+colocar em ordem:
+lista.sort()
+lista.sort(rever=True) #ordem inversa
+
+contar quantidade de elementos:
+len(lista)
+
+função for com posição e valor:
+for índice, elemento in enumerate(valores):
+    ...
+
+---
+exemplo
+A = [1,2,3,4]
+B = A [:] # B vai criar uma cópia de A, não estando mais vinculado a A

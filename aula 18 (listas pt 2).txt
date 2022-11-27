@@ -1,0 +1,15 @@
+lista = list() = []
+lista.append('elemento 0')
+lista.append('elemento 1')
+listamaior = list() = []
+listamaior.append(lista[:])
+# resultado:
+print(listamaior) = [['elemento 0', 'elemento 1']]
+
+lista[0] = 'elemento 2'
+lista[1] = 'elemento 3'
+listamaior.append(:)
+# resultado:
+print(listamaior) = [['elemento 0', 'elemento 1'], ['elemento 2', 'elemento 3']]
+
+print(listamaior[0][1]) = 'elemento 1
