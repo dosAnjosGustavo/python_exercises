@@ -1,0 +1,12 @@
+try:
+    #operation
+except [Exception as erro]: #[opcional]
+    print(erro.__class__, erro.__cause__)
+    #in case of fail
+else:
+    #it worked out
+finally:
+    #independent if worked out or fail
+
+
+the same 'try' can have a lot of 'excepts'
